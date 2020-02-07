@@ -1,4 +1,5 @@
 FROM python:alpine3.7
+# test comment
 COPY . /app
 WORKDIR /app
 RUN pip install --upgrade pip
